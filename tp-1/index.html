@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico HTML</title>
+</head>
+<body>
+
+    <!-- 4.2 Encabezados y Propiedades del Texto -->
+    <h1>Trabajo Práctico de HTML</h1>
+    <h2>Encabezado Nivel 2</h2>
+    <h3>Encabezado Nivel 3</h3>
+    <h4>Encabezado Nivel 4</h4>
+    <h5>Encabezado Nivel 5</h5>
+    <h6>Encabezado Nivel 6</h6>
+    <p style="font-weight: bold;">Este es un texto en negrita.</p>
+    <p style="font-style: italic;">Este es un texto en cursiva.</p>
+    <p style="text-decoration: underline;">Este es un texto subrayado.</p>
+
+    <!-- 4.3 Divisiones y Agrupación de Contenido -->
+    <div>
+        <section>
+            <h1>Sección 1</h1>
+            <p>Este es un bloque de contenido dentro de un div.</p>
+        </section>
+        <section>
+            <h1>Sección 2</h1>
+            <p>Este es un bloque de contenido dentro de un div.</p>
+        </section>
+    </div>
+
+    <!-- 4.4 Enlaces y Listas -->
+    <nav>
+        <ul>
+            <li><a href="#encabezados">Ir a Encabezados</a></li>
+            <li><a href="#listas">Ir a Listas</a></li>
+        </ul>
+    </nav>
+
+    <p>Puedes visitar <a href="https://www.google.com" target="_blank">Google</a> para más información.</p>
+    
+    <h3 id="listas">Listas: </h3>
+    <h3>Lista ordenada: </h3>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+    <h3>Lista desordenada: </h3>
+    <ul>
+        <li>Elemento A</li>
+        <li>Elemento B</li>
+        <li>Elemento C</li>
+    </ul>
+
+    <!-- 4.5 Elementos Multimedia -->
+    <h2>Elementos Multimedia</h2>
+    <img src="https://www.gettyimages.com.au/photos/coffee" 
+    alt="Coffe Image" style="max-width: 100%; height: auto;">
+    <video controls>
+        <source src="video.mp4" type="video/mp4">        
+    </video>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">        
+    </audio>
+
+    <!-- 4.6 Tablas -->
+    <h2>Tabla de Ejemplo</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+            </tr>
+            <tr>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 4.7 Formularios -->
+    <h2>Formulario de Contacto</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- 4.8 Semántica en HTML -->
+      
+      <h1>Encabezado Principal</h1>
+          
+      <nav>
+          <ul>
+              <li><a href="#estructura">Estructura</a></li>
+              <li><a href="#multimedia">Multimedia</a></li>
+              <li><a href="#formulario">Formulario</a></li>
+          </ul>
+      </nav>
+      
+      <main>
+        <section>
+            <h2 id="estructura">1. Estructura Básica del Documento HTML</h2>            
+        </section>
+        <section>
+            <p>Descripción de la estructura.</p>
+            <p>Información complementaria.</p>
+        </section>  
+      </main>                
+      
+      <footer>
+          <p>2024 Trabajo Práctico de HTML</p>
+      </footer>
+
+</body>
+</html>
